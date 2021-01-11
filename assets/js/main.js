@@ -29,7 +29,7 @@ function updateSchedule() {
         if (moment().format("HH") > h) {
             due = "past";
         }
-        else if (moment().format(HH) < h) {
+        else if (moment().format("HH") < h) {
             due = "future";
         }
         else {
